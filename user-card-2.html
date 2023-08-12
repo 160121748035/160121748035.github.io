@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin: auto;
+  border: 3px solid whitesmoke;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+}
+
+.container {
+  padding: 2px 16px;
+}
+#h2{
+    margin: auto;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <p>dummy3</p>
+<div id="h2">
+<h2 >Anime Card</h2>
+</div>
+<div class="card">
+  <img src="./bleach1.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><span id="personName">Ichigo Kurosaki</span></h4> 
+    <p>Substitute Soul reaper</p> 
+  </div>
+</div>
+<button id="btnToggle" onclick="toggle()">Toggle</button>
+<script>
+    function toggle(){
+        alert("clicked toogle");
+    }
+</script>
+</body>
+</html> 
