@@ -29,12 +29,12 @@
 </style>
 </head>
 <body>
-    <p>dummy3</p>
+    <p>dummy4</p>
 <div id="h2">
 <h2 >Anime Card</h2>
 </div>
 <div class="card">
-  <img src="./bleach1.jpg" alt="Avatar" style="width:100%">
+  <img src="./bleach1.jpg" id="myimg" alt="Avatar" style="width:100%">
   <div class="container">
     <h4><span id="personName">Ichigo Kurosaki</span></h4> 
     <p>Substitute Soul reaper</p> 
@@ -44,6 +44,8 @@
 <script>
     function toggle(){
         alert("clicked toogle");
+        document.getElementById("personName").innerHTML="Jujutsu kaisen";
+        document.getElementById("myimg").src="jjk.jpg"
     }
 </script>
 </body>
